@@ -1,0 +1,171 @@
+
+@font-face {
+    font-family: 'Miami';
+    src: url('../fonts/Miami.ttf') format('truetype');
+}
+
+
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.bg-dark{
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.btn-primary{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 42px;
+    border: none;
+    color: white;
+    padding: 16px 46px;
+}
+
+.header{
+    width: 100%;
+
+}
+
+.section-description{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-secondary{
+    background-color: rgba(17, 17, 17, 1);
+    border: 1px solid white;
+    padding: 16px 48px;
+    border-radius: 42px;
+    color: white;
+    font-weight: 400;
+}
+
+
+
+/* header styles */
+/* navbar  */
+.navbar, .banner{
+   max-width:1024px;
+}
+.brand{
+    color: rgba(230, 83, 60, 1);
+    font-weight: bold ;
+    font-style: italic;
+    font-size: 2rem;
+}
+.navbar{
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+.nav-content li{
+    list-style: none;
+    margin-right: 30px;
+  
+    
+}
+.nav-content{
+    text-decoration: none;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    height: 36px;
+    
+    
+}
+.nav-link{
+    text-decoration: none;
+    
+}
+.nav-items{
+    color: white;
+}
+.btn-navbar{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 42px;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+
+}
+
+/* banner styles */
+.banner{
+    margin: 0px auto;
+    gap:150px;
+}
+
+.banner-header{
+    color: white;
+    font-size: 4.5rem;
+}
+.banner-content{
+    flex:1;
+}
+.banner-img{
+    flex:1;
+    width:100%;
+}
+.btn-banner-2{
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    border: none;
+    padding: 30px 30px 20px 40px;
+    margin: 0px;
+    /* margin-left: -100px;
+    margin-top: 200px; */
+    position:relative;
+    /* left:-100px;
+    bottom:200px; */
+    width: 206px;
+    height: 96px;
+    justify-items: center;
+
+
+
+}
+.circle{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    /* left: -20px;
+    
+    margin: 0px;
+    padding:0px; */
+}
+.btn-style-2{
+    font-size: 1.5rem;
+    color:white;
+
+}
+
+.btn-banner-1{
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    border: none;
+    padding: 17px 24px;
+    
+    /* margin-left: -100px;
+    margin-top: 200px; */
+    position:relative;
+    left:230px;
+    bottom:450px;
+    width: 193px;
+    height: 98px;
+
+
+}
+.btn-style-1{
+    font-size: 2.5rem;
+    color:white;
+
+}
+
+
+
+
+
