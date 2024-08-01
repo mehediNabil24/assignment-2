@@ -523,10 +523,11 @@ footer{
     
 
 }
-/* .fitness, .get, .get-1{
+/* .get, .get-1{
+    margin:0px;
     
     
-} */
+}  */
 .fitness{
     width:40%;
 }
@@ -537,6 +538,165 @@ footer{
 .rights p{
     margin-bottom: 5px;
 }
+
+.hide{
+    display: none;
+}
+
+/* mobile responsive */
+
+@media screen and (max-width:576px){
+    .navbar,.nav-content,.banner,.run,.bmi-container,.footer{
+        flex-direction: column;
+    }
+    .banner-header{
+        font-size: 2.5rem;
+    }
+    .banner-image{
+        max-width:100%;
+    }
+
+    .box-banner-2{
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    border: none;
+    padding: 20px 23px 20px 20px;
+    margin: 0px;
+   position: relative;
+    width: 120px;
+    height: 60px;
+    justify-items: center;
+    align-items: center;
+    gap:10px;
+    left:0px;
+    bottom:300px;
+
+
+
+}
+.box-banner-1{
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    border: none;
+    justify-items: center;
+    text-align: center;
+    padding:16px 20px;
+   
+    position:relative;
+    left:150px;
+    bottom:400px;
+    width: 130px;
+    height: 70px;
+
+
+}
+.btn-primary{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 42px;
+    border: none;
+    color: white;
+    padding: 16px 36px;
+}
+
+.btn-secondary{
+    background-color: rgba(17, 17, 17, 1);
+    border: 1px solid white;
+    padding: 16px 38px;
+    border-radius: 42px;
+    color: white;
+    font-weight: 400;
+}
+
+.habit-exercise, .services-container,.trainer-photo{
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+
+.run-container{
+    
+    width:100%;
+    padding:0px 35px 0px 60px;
+    margin-bottom: 0px;
+    
+}
+.run-img{
+    width:100%;
+    border-radius: 24px;
+    
+    
+
+}
+.run-person{
+    width:100%;
+    
+    
+    
+}
+.run{
+    gap:20px;
+    width:100%
+}
+
+.services-container{
+    padding: 0px;
+    gap:25px;
+    
+}
+.services-container img{
+    max-width: 100%;
+}
+.fitness{
+    width:100%;
+
+
+}
+.bmi-chart-container{
+    width:100%;
+    
+}
+.bmi-items{
+    border: 0.5px solid rgba(255, 255, 255, 0.5) ;
+    color:rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px 0px 14px 0px;
+    border-radius: 5px;
+    
+
+
+}
+.calculate-container{
+    gap: 5px;
+}
+.bmi-container{
+   gap:20px;
+    
+   
+}
+#sex{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    position: relative;
+    left:60px;
+    border-radius: none;
+    
+}
+
+#select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: none;
+    position: relative;
+    left:150px;
+
+}
+
+.get,.get-1{
+    position: relative;
+    margin-left: -250px;
+}
+}
+
+
 
 
 
