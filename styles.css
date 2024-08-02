@@ -61,6 +61,12 @@ body{
    max-width:1024px;
 
 }
+.hamburger{
+    color: white;
+}
+.hamburger{
+    display: none;
+}
 .brand{
     color: rgba(230, 83, 60, 1);
     font-weight: bold ;
@@ -543,9 +549,16 @@ footer{
 /* mobile responsive */
 
 @media screen and (max-width:576px){
-    .navbar,.nav-content,.banner,.run,.bmi-container,.footer{
+    .banner,.run,.bmi-container,.footer{
         flex-direction: column;
         max-width:100%;
+    }
+
+    .hamburger{
+        display:block;
+    }
+    .nav-content{
+        display: none;
     }
     .banner-header{
         font-size: 2.5rem;
