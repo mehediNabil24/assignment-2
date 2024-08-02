@@ -131,21 +131,22 @@ body{
 .banner-img{
     flex:1;
     width:100%;
+    position: relative;
 }
 .box-banner-2{
     background-color: rgba(48, 48, 48, 0.54);
     border-radius: 12px;
     border: none;
-    padding: 20px 23px 20px 40px;
+    padding: 25px 23px 25px 40px;
     margin: 0px;
-   position: relative;
-    width: 180px;
-    height: 80px;
+   position: absolute;
+    /* width: 180px;
+    height: 80px; */
     justify-items: center;
     align-items: center;
     gap:10px;
     left:-130px;
-    bottom:300px;
+    bottom:65px;
 
 
 
@@ -170,13 +171,14 @@ body{
     border: none;
     justify-items: center;
     text-align: center;
-    padding:16px 20px;
+    padding:20px 40px;
    
-    position:relative;
-    left:230px;
-    bottom:450px;
-    width: 160px;
-    height: 80px;
+    position:absolute;
+    left:200px;
+    bottom:350px;
+    
+    /* width: 160px;
+    height: 80px; */
 
 
 }
@@ -573,14 +575,14 @@ footer{
     border: none;
     padding: 20px 23px 20px 20px;
     margin: 0px;
-   position: relative;
-    width: 120px;
-    height: 60px;
+   position: absolute;
+    /* width: 120px;
+    height: 60px; */
     justify-items: center;
     align-items: center;
     gap:10px;
     left:0px;
-    bottom:300px;
+    bottom:25px;
 
 
 
@@ -593,11 +595,11 @@ footer{
     text-align: center;
     padding:16px 20px;
    
-    position:relative;
+    position:absolute;
     left:150px;
-    bottom:400px;
-    width: 130px;
-    height: 70px;
+    bottom:300px;
+    /* width: 130px;
+    height: 70px; */
 
 
 }
