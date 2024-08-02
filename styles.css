@@ -249,11 +249,12 @@ body{
     padding:0px 35px 35px 35px;
 }
 .run-img{
-    width:100%;
+    max-width:100%;
     border-radius: 24px;
     
 
 }
+
 .run-person{
     width:40%;
     
@@ -277,7 +278,7 @@ body{
     margin: 0 auto;
     width:100%;
     height: 100%;
-    gap:100px;
+    gap:85px;
 }
 .chart-container{
     display: grid;
@@ -292,7 +293,7 @@ body{
 }
 
 .bmi-chart-container{
-    width:35%;
+    width:34%;
     
 }
 .chart-items{
@@ -553,7 +554,7 @@ footer{
 @media screen and (max-width:576px){
     .banner,.run,.bmi-container,.footer{
         flex-direction: column;
-        max-width:100%;
+        /* width:100%; */
     }
 
     .hamburger{
@@ -565,9 +566,16 @@ footer{
     .banner-header{
         font-size: 2.5rem;
     }
-    .banner-image{
+    .banner-img img{
         max-width:100%;
     }
+    .banner-image{
+       width:100%;
+    }
+    .banner-content{
+        width: 100%;
+    }
+
 
     .box-banner-2{
     background-color: rgba(48, 48, 48, 0.54);
@@ -628,18 +636,17 @@ footer{
 
 .run-container{
     
-    width:80%;
-    padding:0px 35px 0px 60px;
+    width:100%;
+    padding:0px 0px 0px 0px;
     margin-bottom: 0px;
     
 }
-.run img{
-    width:100%;
+.run-person img{
+    max-width:100%;
     border-radius: 24px;
     
-    
-
 }
+
 .run-person{
     width:100%;
     
@@ -681,7 +688,7 @@ footer{
 }
 .calculate-container{
     gap: 5px;
-    max-width: 100%;
+    width: 100%;
 }
 .bmi-container{
    gap:20px;
@@ -694,7 +701,7 @@ footer{
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     position: absolute;
-    left:250px;
+    left:300px;
     border-radius: none;
     
 }
@@ -704,7 +711,7 @@ footer{
     border: none;
     border-radius: none;
     position: absolute;
-    left:150px;
+    left:300px;
 
 }
 
