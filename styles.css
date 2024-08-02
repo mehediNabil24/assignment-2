@@ -1,8 +1,5 @@
 
-@font-face {
-    font-family: 'Miami';
-    src: url('../fonts/Miami.ttf') format('truetype');
-}
+
 
 
 
@@ -325,7 +322,7 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     position: relative;
-    left:135px;
+    left:200px;
     border-radius: none;
     
 }
@@ -335,7 +332,7 @@ body{
     border: none;
     border-radius: none;
     position: relative;
-    left:350px;
+    left:370px;
 
 }
 
@@ -548,6 +545,7 @@ footer{
 @media screen and (max-width:576px){
     .navbar,.nav-content,.banner,.run,.bmi-container,.footer{
         flex-direction: column;
+        max-width:100%;
     }
     .banner-header{
         font-size: 2.5rem;
@@ -609,17 +607,18 @@ footer{
 
 .habit-exercise, .services-container,.trainer-photo{
     grid-template-columns: repeat(1, 1fr);
+    max-width:100%;
     
 }
 
 .run-container{
     
-    width:100%;
+    width:80%;
     padding:0px 35px 0px 60px;
     margin-bottom: 0px;
     
 }
-.run-img{
+.run img{
     width:100%;
     border-radius: 24px;
     
@@ -661,31 +660,35 @@ footer{
     padding: 15px 0px 14px 0px;
     border-radius: 5px;
     
+    
 
 
 }
 .calculate-container{
     gap: 5px;
+    max-width: 100%;
 }
 .bmi-container{
    gap:20px;
+   max-width:100%;
+   position: relative;
     
    
 }
 #sex{
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
-    position: relative;
-    left:60px;
+    position: absolute;
+    left:250px;
     border-radius: none;
     
 }
 
 #select{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(159, 136, 136, 0.1);
     border: none;
     border-radius: none;
-    position: relative;
+    position: absolute;
     left:150px;
 
 }
